@@ -19,3 +19,7 @@ the business never loses important information.
 - Helps ensure important files can be restored when needed  
 
 ## 📁 Project Structure
+scripts/ → automation files used by the system
+docs/ → setup steps, explanations, screenshots, timeline
+sample-data/ → optional example invoices/photos for testing
+README.md → project overview (this file)
