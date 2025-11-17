@@ -8,9 +8,12 @@ The goal is to keep business files organized, backed up, and easy to find withou
 The automation system is designed to:
 
 ✔ Automatically sort business files (clients, invoices, expenses, schedules) into clean folders
+
 ✔ Generate regular backups to prevent data loss
+
 ✔ Remove or archive old logs to keep storage clean
-✔ Provide predictable structure for a small business workflow
+
+✔ Provide a predictable structure for a small business workflow
 
 2. Folder Structure
 
@@ -31,7 +34,9 @@ This structure keeps all business categories separated and easy to navigate.
 3. File Sorting Automation
 
 Incoming files (CSV, JSON, PDF, etc.) are placed in an /Incoming folder.
-The automation script checks each file and moves it based on keywords or filename patterns:
+The automation script checks each file and moves it based on keywords or filename patterns.
+
+Sorting Rules
 
 File Type	Example Name	Destination
 Client files	clients_sample.csv	/Clients
@@ -40,13 +45,13 @@ Invoice files	invoice_2025-01.csv	/Invoices
 Reports	reports_sample.json	/Reports
 Schedule files	schedule_sample.csv	/Schedules
 
-This ensures that files never get mixed or lost.
+This ensures files are never mixed or lost.
 
 4. Backup Automation
 
 Backups run on a daily or weekly schedule.
 
-Backup behavior:
+Backup Behavior
 
 Creates a timestamped backup folder
 
@@ -71,10 +76,12 @@ Example structure:
 The system automatically:
 
 ✔ Compresses old logs
-✔ Deletes logs older than a set number of days (ex: 30 days)
+
+✔ Deletes logs older than a set number of days (example: 30 days)
+
 ✔ Keeps storage clean
 
-This prevents the system from filling up with unnecessary old files.
+This prevents unnecessary old files from taking up space.
 
 6. Sample Data Used for Testing
 
@@ -90,13 +97,13 @@ reports_sample.json
 
 schedule_sample.csv
 
-These test files simulate real small-business operations.
+These represent real business documents used in a landscaping workflow.
 
 7. Expected Outcome
 
 After running the automation:
 
 ✔ All files are correctly sorted
-✔ Backups are created and timestamped
+✔ Backups are properly timestamped
 ✔ Logs are cleaned
-✔ The business's data stays organized with no effort
+✔ Business data stays organized with zero manual effort
