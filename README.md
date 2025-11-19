@@ -49,8 +49,9 @@ The automation scripts organize local business files into a consistent directory
 
 Incoming files (CSV, JSON, PDF, images, etc.) are detected and sorted automatically into the correct folder based on keywords.
 
+## 🌐 Database Storage (Web App)
 
-## 🌐 The website portion of the project uses a Supabase PostgreSQL database to store structured business data.
+The website portion of the project uses a Supabase PostgreSQL database to store structured business data.
 
 The database includes these tables:
 
@@ -72,3 +73,38 @@ User/session tracking
 Validated schema rules
 
 This ensures data is not lost, altered incorrectly, or corrupted.
+
+## 🔐 Data Integrity 
+Some of the Data Integrity Controls Include
+
+Schema Validation
+
+Each table defines valid data types (e.g., text, numeric, date).
+Invalid entries are rejected automatically.
+
+Timestamps
+
+Every change is recorded with exact time, which is important for:
+
+Tracking updates, Forensic reconstruction, Log correlation
+
+Predictable File Naming
+
+Example:
+
+invoice_2025-01-03_ClientName.pdf  
+expense_fuel_2025-01-10.csv  
+schedule_2025-01-17.json
+
+
+Predictable filenames allow:
+
+Easy indexing
+
+Automated sorting
+
+Quick discovery during audits
+
+It Even Has Automated Backups
+
+The system generates timestamped backup directories, ensuring files are never overwritten.
