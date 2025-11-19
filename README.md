@@ -24,5 +24,51 @@ the business never loses important information.
 ## 📁 Project Structure
 scripts/ → automation files used by the system
 docs/ → setup steps, explanations, screenshots, timeline
-sample-data/ → optional example invoices/photos for testing
-README.md → project overview (this file)
+sample-data/ → optional example invoices
+
+📦 Data Storage, Database Structure & Privacy Controls
+
+This section explains how the system stores business information, how the database is structured, and what privacy and security measures protect the data. This connects directly to cybersecurity concepts such as integrity, confidentiality, data retention, and forensic traceability.
+
+1. How Information Is Stored
+
+The project uses two layers of data organization:
+
+A. Local File Storage (Automation System)
+
+The automation scripts organize local business files into a consistent directory layout:
+
+/Business-Data/
+   /Clients
+   /Invoices
+   /Expenses
+   /Reports
+   /Schedules
+   /Logs
+   /Backups
+
+
+Incoming files (CSV, JSON, PDF, images, etc.) are detected and sorted automatically into the correct folder based on keywords.
+
+The website portion of the project uses a Supabase PostgreSQL database to store structured business data.
+
+The database includes these tables:
+
+Table	Purpose
+clients	Basic customer information (name, contact, address, notes)
+invoices	Invoice totals, payment status, due dates
+expenses	Business costs such as supplies, gas, labor, etc.
+reports	Job summaries and work logs
+schedule	Appointments and upcoming jobs
+
+Each record is stored with:
+
+UUID primary keys
+
+Timestamps (created_at, updated_at)
+
+User/session tracking
+
+Validated schema rules
+
+This ensures data is not lost, altered incorrectly, or corrupted.
