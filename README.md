@@ -55,12 +55,12 @@ The website portion of the project uses a Supabase PostgreSQL database to store 
 
 The database includes these tables:
 
-Table	Purpose
-clients	Basic customer information (name, contact, address, notes)
-invoices	Invoice totals, payment status, due dates
-expenses	Business costs such as supplies, gas, labor, etc.
-reports	Job summaries and work logs
-schedule	Appointments and upcoming jobs
+Table	                  Purpose
+clients	               Basic customer information (name, contact, address, notes)
+invoices	               Invoice totals, payment status, due dates
+expenses                Business costs such as supplies, gas, labor, etc.
+reports	               Job summaries and work logs
+schedule                Appointments and upcoming jobs
 
 Each record is stored with:
 
@@ -108,3 +108,60 @@ Quick discovery during audits
 It Even Has Automated Backups
 
 The system generates timestamped backup directories, ensuring files are never overwritten.
+
+## 📡 Privacy & Security 
+
+## Access Control (Least Privilege)
+## Supabase enforces Row-Level Security (RLS):
+
+Only authenticated users can read or modify data
+API keys and session tokens restrict access
+No anonymous viewing of client or business information
+
+## Encrypted Communication
+
+All communication is done over HTTPS, ensuring:
+
+Data is encrypted in transit
+
+Client info cannot be intercepted
+
+Attackers cannot sniff credentials
+
+## Encrypted Storage (At Rest)
+
+Supabase uses encryption for stored database information, so even if someone accessed the raw data layer, it would be protected.
+
+## Minimal Data Retention / Privacy Compliance
+
+The system does not store unnecessary information.
+This follows modern privacy principles:
+
+Data minimization
+
+Purpose limitation
+
+Retention control
+
+Sensitive personal information (SSN, credit card numbers, etc.) is not stored, reducing liability.
+
+## Backup & Recovery (Disaster Recovery)
+
+The automation system creates safe backups:
+
+/Backups/YYYY-MM-DD/
+   /Clients
+   /Invoices
+   /Expenses
+   /Reports
+   /Schedules
+
+
+These Backups protect against:
+
+Accidental deletion
+Corrupt files
+System crashes
+Ransomware
+Human error
+
