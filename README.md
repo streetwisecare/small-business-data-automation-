@@ -53,7 +53,7 @@ Incoming files (CSV, JSON, PDF, images, etc.) are detected and sorted automatica
 
 The website portion of the project uses a Supabase PostgreSQL database to store structured business data.
 
-The database includes these tables:
+## The database includes these tables:
 
 Table	                  Purpose
 clients	               Basic customer information (name, contact, address, notes)
@@ -77,18 +77,18 @@ This ensures data is not lost, altered incorrectly, or corrupted.
 ## 🔐 Data Integrity 
 Some of the Data Integrity Controls Include
 
-Schema Validation
+## Schema Validation
 
 Each table defines valid data types (e.g., text, numeric, date).
 Invalid entries are rejected automatically.
 
-Timestamps
+## Timestamps
 
 Every change is recorded with exact time, which is important for:
 
 Tracking updates, Forensic reconstruction, Log correlation
 
-Predictable File Naming
+## Predictable File Naming
 
 Example:
 
@@ -96,22 +96,15 @@ invoice_2025-01-03_ClientName.pdf
 expense_fuel_2025-01-10.csv  
 schedule_2025-01-17.json
 
+this allows Easy indexing, Automated sorting, Quick discovery during audits
 
-Predictable filenames allow:
 
-Easy indexing
-
-Automated sorting
-
-Quick discovery during audits
-
-It Even Has Automated Backups
+## It Even Has Automated Backups
 
 The system generates timestamped backup directories, ensuring files are never overwritten.
 
 ## 📡 Privacy & Security 
 
-## Access Control (Least Privilege)
 ## Supabase enforces Row-Level Security (RLS):
 
 Only authenticated users can read or modify data
