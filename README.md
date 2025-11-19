@@ -26,7 +26,7 @@ scripts/ → automation files used by the system
 docs/ → setup steps, explanations, screenshots, timeline
 sample-data/ → optional example invoices
 
-📦 Data Storage, Database Structure & Privacy Controls
+## 📦 Data Storage, Database Structure & Privacy Controls
 
 This section explains how the system stores business information, how the database is structured, and what privacy and security measures protect the data. This connects directly to cybersecurity concepts such as integrity, confidentiality, data retention, and forensic traceability.
 
@@ -47,10 +47,10 @@ The automation scripts organize local business files into a consistent directory
    /Logs
    /Backups
 
-
 Incoming files (CSV, JSON, PDF, images, etc.) are detected and sorted automatically into the correct folder based on keywords.
 
-The website portion of the project uses a Supabase PostgreSQL database to store structured business data.
+
+## 🌐 The website portion of the project uses a Supabase PostgreSQL database to store structured business data.
 
 The database includes these tables:
 
