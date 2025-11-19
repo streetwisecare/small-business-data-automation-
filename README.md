@@ -56,11 +56,11 @@ The website portion of the project uses a Supabase PostgreSQL database to store 
 The database includes these tables:
 
 Table	                  Purpose
-clients	               Basic customer information (name, contact, address, notes)
-invoices	               Invoice totals, payment status, due dates
-expenses                Business costs such as supplies, gas, labor, etc.
-reports	               Job summaries and work logs
-schedule                Appointments and upcoming jobs
+clients--------Basic customer information (name, contact, address, notes)
+invoices-------Invoice totals, payment status, due dates
+expenses-------Business costs such as supplies, gas, labor, etc.
+reports--------Job summaries and work logs
+schedule-------Appointments and upcoming jobs
 
 Each record is stored with:
 
