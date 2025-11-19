@@ -26,6 +26,8 @@ scripts/ → automation files used by the system
 docs/ → setup steps, explanations, screenshots, timeline
 sample-data/ → optional example invoices
 
+
+
 ## 📦 Data Storage, Database Structure & Privacy Controls
 
 This section explains how the system stores business information, how the database is structured, and what privacy and security measures protect the data. This connects directly to cybersecurity concepts such as integrity, confidentiality, data retention, and forensic traceability.
@@ -48,6 +50,9 @@ The automation scripts organize local business files into a consistent directory
    /Backups
 
 Incoming files (CSV, JSON, PDF, images, etc.) are detected and sorted automatically into the correct folder based on keywords.
+
+
+
 
 ## 🌐 Database Storage (Web App)
 
@@ -73,6 +78,13 @@ User/session tracking
 Validated schema rules
 
 This ensures data is not lost, altered incorrectly, or corrupted.
+
+
+
+
+
+
+
 
 ## 🔐 Data Integrity 
 Some of the Data Integrity Controls Include
@@ -102,6 +114,9 @@ this allows Easy indexing, Automated sorting, Quick discovery during audits
 ## It Even Has Automated Backups
 
 The system generates timestamped backup directories, ensuring files are never overwritten.
+
+
+
 
 ## 📡 Privacy & Security 
 
