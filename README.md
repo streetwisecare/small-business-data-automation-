@@ -53,7 +53,7 @@ Incoming files (CSV, JSON, PDF, images, etc.) are detected and sorted automatica
 
 The website portion of the project uses a Supabase PostgreSQL database to store structured business data.
 
-## The database includes these tables:
+The database includes these tables:
 
 Table	                  Purpose
 clients	               Basic customer information (name, contact, address, notes)
