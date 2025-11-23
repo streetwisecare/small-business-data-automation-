@@ -173,3 +173,6 @@ System crashes
 Ransomware
 Human error
 
+
+<img width="1530" height="854" alt="Image" src="https://github.com/user-attachments/assets/2f4d162e-0a0f-4005-a432-3926a5323dc5" />
+
