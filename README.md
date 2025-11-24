@@ -127,4 +127,5 @@ GitHub------Version control + documentation
 
 ## Database Architecture Diagram 
 
+<img width="1024" height="1536" alt="Image" src="https://github.com/user-attachments/assets/53b6bc6d-1423-4ffd-a6f9-2c519ba85aa2" />
 
