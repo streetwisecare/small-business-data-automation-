@@ -90,3 +90,17 @@ Organized folder structure makes evidence easier to find
 
 Historical backups serve as immutable snapshots
 
+
+## 🛠️ Methodology
+
+Setup & Environment
+
+Local Environment:
+
+Windows system used for automation scripts
+
+Web Environment:
+
+Website hosted using modern frontend stack (TypeScript + HTML)
+
+Supabase PostgreSQL database used for structured data storage
