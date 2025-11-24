@@ -123,7 +123,7 @@ GitHub------Version control + documentation
 
 ## Data Flow Diagram 
 
-<img width="1024" height="1536" alt="Image" src="https://github.com/user-attachments/assets/5fc6234a-0d15-4a2d-af12-1dcf054e09b3" />
+<img width="512" height="768" alt="Image" src="https://github.com/user-attachments/assets/5fc6234a-0d15-4a2d-af12-1dcf054e09b3" />
 
 ## Database Architecture Diagram 
 
