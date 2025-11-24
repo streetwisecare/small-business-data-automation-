@@ -28,3 +28,13 @@ to clients, Connecting payments to jobs
 Viewing cost summaries
 📑 Reports - Financial reports, Job performance reports, Profit/loss summaries,
 Client activity reports
+
+
+## 📌 Project Overview
+This project automates the organization, storage, and protection of small-business data.
+The system:
+Sorts incoming files into appropriate folders (clients, invoices, expenses, schedules, reports)
+Stores structured business records in a secure cloud PostgreSQL database
+Generates timestamped backups to protect against data loss
+Cleans old logs to its maintain system 
+Provides a simple web interface for business operations
