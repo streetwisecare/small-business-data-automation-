@@ -55,7 +55,12 @@ Provides a simple web interface for business operations
 Although this project is business-focused, it directly overlaps very well with cybersecurity and digital forensics.
 
 ✔ Data Integrity -
-Automated sorting, backup versioning, and database schema rules prevent corruption and preserve chronological accuracy — critical for forensic investigations.
+
+Automated sorting
+
+backup versioning
+
+and a database schema rules prevent corruption and preserve chronological accuracy which is needed for forensic investigations.
 
 ✔ Confidentiality & Privacy -
 
