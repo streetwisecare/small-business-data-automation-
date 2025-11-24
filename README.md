@@ -93,7 +93,6 @@ Historical backups serve as immutable snapshots
 
 ## 🛠️ Methodology
 
-Setup & Environment
 
 Local Environment:
 
@@ -104,3 +103,20 @@ Web Environment:
 Website hosted using modern frontend stack (TypeScript + HTML)
 
 Supabase PostgreSQL database used for structured data storage
+
+
+Tools, Frameworks & Datasets
+
+Component	                     Purpose
+
+PowerShell-----Automation scripts (sorting, backups, logs)
+
+Supabase (PostgreSQL)------Secure cloud database
+
+TypeScript-----Frontend logic
+
+CSV sample datasets-----Demonstrate file sorting & database imports
+
+Draw.io diagrams-----Workflow visualization
+
+GitHub------Version control + documentation
