@@ -1,0 +1,59 @@
+/*
+  # Create expenses table
+
+  1. New Tables
+    - `expenses`
+      - `id` (uuid, primary key) - Unique identifier for each expense
+      - `user_id` (uuid, foreign key) - References auth.users
+      - `description` (text) - Description of the expense
+      - `amount` (numeric) - Expense amount
+      - `category` (text) - Expense category (e.g., supplies, fuel, equipment, etc.)
+      - `expense_date` (date) - Date the expense occurred
+      - `created_at` (timestamptz) - Timestamp of when the record was created
+      - `updated_at` (timestamptz) - Timestamp of last update
+
+  2. Security
+    - Enable RLS on `expenses` table
+    - Add policy for authenticated users to read their own expenses
+    - Add policy for authenticated users to insert their own expenses
+    - Add policy for authenticated users to update their own expenses
+    - Add policy for authenticated users to delete their own expenses
+*/
+
+CREATE TABLE IF NOT EXISTS expenses (
+  id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+  user_id uuid REFERENCES auth.users(id) ON DELETE CASCADE NOT NULL,
+  description text NOT NULL,
+  amount numeric NOT NULL DEFAULT 0,
+  category text NOT NULL DEFAULT 'general',
+  expense_date date NOT NULL DEFAULT CURRENT_DATE,
+  created_at timestamptz DEFAULT now(),
+  updated_at timestamptz DEFAULT now()
+);
+
+ALTER TABLE expenses ENABLE ROW LEVEL SECURITY;
+
+CREATE POLICY "Users can read own expenses"
+  ON expenses
+  FOR SELECT
+  TO authenticated
+  USING (auth.uid() = user_id);
+
+CREATE POLICY "Users can insert own expenses"
+  ON expenses
+  FOR INSERT
+  TO authenticated
+  WITH CHECK (auth.uid() = user_id);
+
+CREATE POLICY "Users can update own expenses"
+  ON expenses
+  FOR UPDATE
+  TO authenticated
+  USING (auth.uid() = user_id)
+  WITH CHECK (auth.uid() = user_id);
+
+CREATE POLICY "Users can delete own expenses"
+  ON expenses
+  FOR DELETE
+  TO authenticated
+  USING (auth.uid() = user_id);
