@@ -38,3 +38,40 @@ Stores structured business records in a secure cloud PostgreSQL database
 Generates timestamped backups to protect against data loss
 Cleans old logs to its maintain system 
 Provides a simple web interface for business operations
+
+
+🔐 Project Relevance (Cybersecurity & Forensics)
+
+Although this project is business-focused, it directly overlaps very well with cybersecurity and digital forensics.
+
+✔ Data Integrity -
+Automated sorting, backup versioning, and database schema rules prevent corruption and preserve chronological accuracy — critical for forensic investigations.
+
+✔ Confidentiality & Privacy -
+
+Role-Based Access Control (RLS) prevents unauthorized data access
+
+Database uses encryption at rest + HTTPS encryption in transit
+
+Data minimization principles reduce risk exposure
+
+✔Availability -
+
+Backups preserve business continuity during:
+
+hardware failure
+
+accidental deletion
+
+ransomware events
+
+system misconfigurations
+
+✔ Forensic Traceability -
+
+Timestamps in logs, backups, and database entries allow investigators to reconstruct events
+
+Organized folder structure makes evidence easier to find
+
+Historical backups serve as immutable snapshots
+
