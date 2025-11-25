@@ -46,3 +46,5 @@ Folder structure layout
 Backup behavior explanation
 
 Project timeline and results
+
+<img width="1911" height="902" alt="Image" src="https://github.com/user-attachments/assets/63d31c4c-0e8c-46d1-a1ea-605ad26ad2d6" />
