@@ -20,8 +20,8 @@ so the business never loses critical information.
 Completion rate, Total expenses, Net profit, Pending invoices, and some Quick-action buttons
 
 
-📅 Schedule - Create and manage jobs, Assign jobs to dates, times, and staff, View upcoming 
-jobs in a calendar or list format
+📅 Scheduling - Create and assign jobs; assign jobs to dates, time, and staff;
+and display upcoming jobs in calendar or list format.
 
 
 🧑‍🤝‍🧑 Clients - Adding new clients, Viewing client profiles, Tracking client history (jobs, 
@@ -41,13 +41,12 @@ Client activity reports
 
 
 ## 📌 Project Overview
-This project automates the organization, storage, and protection of small-business data.
-The system:
-Sorts incoming files into appropriate folders (clients, invoices, expenses, schedules, reports)
-Stores structured business records in a secure cloud PostgreSQL database
-Generates timestamped backups to protect against data loss
-Cleans old logs to its maintain system 
-Provides a simple web interface for business operations
+This project automates organizing, storing, and protecting small-business data.
+The system sorts the incoming files into appropriate folders: clients, invoices,
+expenses, schedules, reports. It stores structured business records in a secure
+cloud PostgreSQL database. It generates timestamped backups, thus protecting 
+against data loss. It cleans old logs to maintain the system. It provides a 
+simple web interface for business operations.
 
 
 ## 🔐 Project Relevance (Cybersecurity & Forensics)
@@ -130,7 +129,7 @@ GitHub------Version control + documentation
 <img width="512" height="768" alt="Image" src="https://github.com/user-attachments/assets/53b6bc6d-1423-4ffd-a6f9-2c519ba85aa2" />
 
 
-## Overview 
+## Conclusion 
 
 This project demonstrates how automation and structured data storage can
 
