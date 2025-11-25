@@ -47,4 +47,8 @@ Backup behavior explanation
 
 Project timeline and results
 
+## Dashboard 
 <img width="1911" height="902" alt="Image" src="https://github.com/user-attachments/assets/63d31c4c-0e8c-46d1-a1ea-605ad26ad2d6" />
+
+## Sign Up
+<img width="1384" height="907" alt="Image" src="https://github.com/user-attachments/assets/a401319e-86a8-449d-b378-aace24fe6298" />
