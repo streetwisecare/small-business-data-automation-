@@ -5,13 +5,13 @@ The aim is to solve one real operational problem: business records are usually s
 
 The following project automates three core areas:
 
-1. File Organization
+File Organization
 
 Incoming business files, such as client information, invoices, expenses, schedules, and reports, are automatically sorted into clear folder categories.
 
 This helps to prevent clutter, decreases the risk of human error, and assures quick retrieval in case of an audit or a client request.
 
-2. Automated Backups
+Automated Backups
 
 The system generates time-stamped backup folders that copy all critical business files on a daily or weekly schedule.
 
@@ -25,7 +25,7 @@ Human error
 
 Accidental deletion
 
-3. Log Cleanup and Archiving
+Log Cleanup and Archiving
 
 Old logs are automatically cleaned or archived to maintain storage efficiency.
 
