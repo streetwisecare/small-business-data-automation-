@@ -52,3 +52,18 @@ Project timeline and results
 
 ## Sign Up
 <img width="1384" height="907" alt="Image" src="https://github.com/user-attachments/assets/a401319e-86a8-449d-b378-aace24fe6298" />
+
+## NameCheap Domain Hosting 
+<img width="1530" height="854" alt="Image" src="https://github.com/user-attachments/assets/8606fe3d-eb4c-402e-9b73-ef0940192b99" />
+
+## Reports 
+<img width="1891" height="869" alt="Image" src="https://github.com/user-attachments/assets/03337e20-3917-4eb3-b56e-23f9988d752b" />
+
+## Invoices 
+<img width="1904" height="894" alt="Image" src="https://github.com/user-attachments/assets/a8d53a88-3173-43f2-9ebb-3d2919b41039" />
+
+## Expenses 
+<img width="1900" height="900" alt="Image" src="https://github.com/user-attachments/assets/7243597d-b021-4050-bf3f-b613c5cb7152" />
+
+## Schedule 
+<img width="1904" height="890" alt="Image" src="https://github.com/user-attachments/assets/384b4946-1933-41a0-a4ea-b808f3af7f91" />
