@@ -132,9 +132,6 @@ GitHub------Version control + documentation
 ## 🔥 Conclusion 
 
 This project demonstrates how automation and structured data storage can
-
 significantly enhance the security, organization, and reliability of small-business
-
 operations. This system applies cybersecurity concepts like least privilege, encrypted
-
 storage, forensic logging, backups, and data integrity in a simulated real-world operational workflow.
