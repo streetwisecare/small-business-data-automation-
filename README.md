@@ -4,16 +4,16 @@
 https://fieldflowmanager.org/
 
 A small data-management system designed to keep a landscaping business organized.  
-It automatically sorts important business files into clear folders, creates regular
-backups to prevent data loss, and keeps old logs tidy so information stays easy
-to find and manage.
+It will sort the important business files into clearly named folders, make regular
+backups to prevent data losses, and keep old logs neat so that information remains
+easy to find and manage.
 
 ---
 
 ## 🌿 Purpose
-Landscaping businesses invoices, job notes, schedules, and other
-files every day. This tool keeps those files organized and safely backed up so
-the business never loses important information.
+Every day, a landscaping business invoices, job notes, schedules, and 
+many other files. This tool keeps the files organized and safely backed up 
+so the business never loses critical information.
 
 ## ✨ Features
 📊 Dashboard - Total revenue, Total jobs (and completed jobs) ,Total clients,
@@ -129,3 +129,13 @@ GitHub------Version control + documentation
 
 <img width="512" height="768" alt="Image" src="https://github.com/user-attachments/assets/53b6bc6d-1423-4ffd-a6f9-2c519ba85aa2" />
 
+
+## Overview 
+
+This project demonstrates how automation and structured data storage can
+
+significantly enhance the security, organization, and reliability of small-business
+
+operations. This system applies cybersecurity concepts like least privilege, encrypted
+
+storage, forensic logging, backups, and data integrity in a simulated real-world operational workflow.
