@@ -3,8 +3,11 @@
 The automation system is designed to:
 
 ✔ Automatically sort business files (clients, invoices, expenses, schedules) into clean folders
+
 ✔ Generate regular backups to prevent data loss
+
 ✔ Remove or archive old logs to keep storage clean
+
 ✔ Provide a predictable structure for a small business workflow
 
 ## Folder Structure 
