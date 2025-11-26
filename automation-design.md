@@ -11,20 +11,20 @@ The automation system is designed to:
 
 The automated system uses the following folder layout:
 
-    /Business-Data
+    Business-Data
 
-    /Clients
+    Clients
 
-    /Invoices
+    Invoices
     
-    /Expenses
+    Expenses
     
-    /Reports
+    Reports
     
-    /Schedules
+    Schedules
     
-    /Backups
+    Backups
     
-    /Logs
+    Logs
     
-    /Incoming
+    Incoming
