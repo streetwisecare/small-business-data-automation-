@@ -78,5 +78,19 @@ System failures
         /Reports
         /Schedules
 
+## Expected Outcome 
+Expected Outcome
+
+After running the automation:
+
+✔ All files are correctly sorted
+
+✔ Backups are properly timestamped
+
+✔ Logs are cleaned
+
+✔ Business data remains organized with zero manual effort
+ 
+
 
 
