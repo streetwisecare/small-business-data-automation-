@@ -46,3 +46,38 @@ File Type     	   Example Filename	      Destination Folder
     Report files	reports_sample.json	/Reports
     Schedule files	schedule_sample.csv	/Schedules
 
+## Backup Automation 
+
+Backups run on a daily or weekly schedule.
+
+Backup Behavior
+
+Creates a timestamped backup folder
+
+Copies all important folders into:
+
+/Backups/YYYY-MM-DD/
+
+
+Prevents overwriting existing backups
+
+Protects the business from:
+
+Data loss
+
+Accidental changes
+
+System failures
+
+Backup Example
+
+        /Backups
+        /2025-11-17
+        /Clients
+        /Invoices
+        /Expenses
+        /Reports
+        /Schedules
+
+
+
