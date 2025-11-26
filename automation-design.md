@@ -11,7 +11,7 @@ The automation system is designed to:
 
 The automated system uses the following folder layout:
 
-/Business-Data
+    /Business-Data
 
     /Clients
 
