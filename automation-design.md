@@ -37,7 +37,8 @@ Incoming files (CSV, JSON, PDF, etc.) are first placed in the /Incoming folder.
 A PowerShell automation script analyzes each file and moves it into the correct folder based on keywords or filename patterns.
 
 Sorting Rules
-File Type	Example Filename	Destination Folder
+
+File Type     	   Example Filename	      Destination Folder
 
     Client files	clients_sample.csv	/Clients
     Expense files	expenses_sample.csv	/Expenses
