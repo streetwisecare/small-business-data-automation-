@@ -50,14 +50,13 @@ File Type     	   Example Filename	      Destination Folder
 
 Backups run on a daily or weekly schedule.
 
-Backup Behavior
+## Backup Behavior
 
 Creates a timestamped backup folder
 
 Copies all important folders into:
 
 /Backups/YYYY-MM-DD/
-
 
 Prevents overwriting existing backups
 
@@ -69,7 +68,7 @@ Accidental changes
 
 System failures
 
-Backup Example
+## Backup Example
 
         /Backups
         /2025-11-17
