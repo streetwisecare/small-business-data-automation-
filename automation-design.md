@@ -94,9 +94,15 @@ After running the automation:
 
 ✔ Business data remains organized with zero manual effort
 
+## Database Scema Diagram 
+
  <img width="640" height="790" alt="Image" src="https://github.com/user-attachments/assets/dae5d87f-ad9a-41b5-b5c4-54403a740de9" />
 
+## Folder Structure Diagram
+
 <img width="640" height="790" alt="Image" src="https://github.com/user-attachments/assets/b53c15ba-85db-45c4-9c83-11f7f149c9d5" />
+
+## Workflow Diagram 
 
 <img width="640" height="790" alt="Image" src="https://github.com/user-attachments/assets/10b78ee0-c3f5-4aa7-8bf6-b3fcccdd82dd" />
 
