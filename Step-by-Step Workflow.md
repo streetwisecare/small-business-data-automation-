@@ -15,3 +15,5 @@ Step-by-Step Workflow
 7- Log cleanup removes files older than X days
 
 8 -Website displays data via Supabase queries
+
+<img width="640" height="1098" alt="Image" src="https://github.com/user-attachments/assets/79a36428-0042-4b82-8a0a-b7899f42e0cb" />
