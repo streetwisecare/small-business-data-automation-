@@ -1,3 +1,46 @@
-## Name Cheap Domain Hosting 
+## 🌐 Namecheap Domain & Hosting (Simple Explanation)
 
-asd
+Namecheap is the service used to host the live website for this project.
+It provides:
+
+✔ The domain name
+
+fieldflowmanager.org
+
+✔ Website hosting
+
+Stores and serves the website files so anyone can access them online.
+
+✔ DNS management
+
+Connects the domain to the hosting server and to Supabase.
+
+✔ HTTPS / SSL
+
+Keeps the website secure and encrypted.
+
+## How It Works
+
+The domain fieldflowmanager.org is purchased through Namecheap.
+
+Website files are uploaded using cPanel’s File Manager.
+
+Namecheap hosts the frontend (HTML, CSS, JS).
+
+The website communicates with Supabase for data.
+
+The flow looks like this:
+
+User → Namecheap Website → Supabase Database → Website Displays Data
+
+## Why Namecheap Was Used
+
+Easy to set up
+
+Affordable
+
+Beginner-friendly
+
+Includes SSL
+
+Perfect for small-business websites
