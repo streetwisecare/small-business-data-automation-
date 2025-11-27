@@ -1,4 +1,4 @@
-## 🌐 Namecheap Domain & Hosting (Simple Explanation)
+🌐 Namecheap Domain & Hosting (Simple Explanation)
 
 Namecheap is the service used to host the live website for this project.
 It provides:
@@ -19,7 +19,7 @@ Connects the domain to the hosting server and to Supabase.
 
 Keeps the website secure and encrypted.
 
-## How It Works
+How It Works
 
 The domain fieldflowmanager.org is purchased through Namecheap.
 
@@ -33,7 +33,7 @@ The flow looks like this:
 
 User → Namecheap Website → Supabase Database → Website Displays Data
 
-## Why Namecheap Was Used
+Why Namecheap Was Used
 
 Easy to set up
 
