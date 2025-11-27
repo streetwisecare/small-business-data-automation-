@@ -12,7 +12,10 @@ No installation needed — the site runs in any browser (Chrome, Edge, Firefox).
 
 📝 Creating an Account (Sign-Up)
 
-To create an account:
+To create an account
+
+:<img width="1384" height="907" alt="create account" src="https://github.com/user-attachments/assets/18a94180-d621-42f4-8006-eab8fd7db57b" />
+
 
 Go to https://fieldflowmanager.org
 
