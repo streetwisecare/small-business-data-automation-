@@ -1,4 +1,4 @@
-# Small Business Data Automation (FieldFlow)
+## Small Business Data Automation (FieldFlow)
 
 ## 🌐 Live Website Access
 https://fieldflowmanager.org/
@@ -135,3 +135,10 @@ This project demonstrates how automation and structured data storage can
 significantly enhance the security, organization, and reliability of small-business
 operations. This system applies cybersecurity concepts like least privilege, encrypted
 storage, forensic logging, backups, and data integrity in a simulated real-world operational workflow.
+
+
+## Target Audience 
+This system is designed for small landscaping businesses, solo contractors, or anyone needing organized job scheduling and expense tracking.
+
+## Support 
+If you experience issues with the site or automation scripts, contact: streetwisecare@gmail.com
